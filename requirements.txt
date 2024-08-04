@@ -2,16 +2,10 @@
 ipykernel
 numpy
 pandas
-streamlit
-faiss-cpu
-tabulate
 river
 seaborn
 plotly==5.20.0
 scipy
-matplotlib
 Jinja2
 typing_extensions
 nbformat
-openpyxl
-dataclasses

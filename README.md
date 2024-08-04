@@ -1,5 +1,5 @@
 ## Steps to correctly install the dependent libraries on local machine
-1. `git clone https://github.com/yotamdery/llm_for_qa`
+1. `git clone https://github.com/yotamdery/predicting_feature_pop_drift.git`
 2. `python3.12 -m venv .venv`
 (That's the python version used for this project)
 3. `source .venv/bin/activate`

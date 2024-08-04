@@ -5,11 +5,7 @@ pandas
 streamlit
 faiss-cpu
 tabulate
-langchain
-langchain_experimental
-langchain_openai
-langchain_community
-nltk
+river
 seaborn
 plotly==5.20.0
 scipy

@@ -1,0 +1,20 @@
+1. **Data Ingestion:**
+   - Data is ingested in real-time from various sources using Apache Kafka or AWS Kinesis. This component ensures a continuous data stream for processing.
+
+2. **Feature Extraction and Preprocessing:**
+   - Apache Flink or Spark Streaming processes the incoming data stream to extract relevant features for drift detection. Preprocessing ensures that the data is clean and formatted correctly for analysis.
+
+3. **Drift Detection Engine:**
+   - The drift detection engine is implemented using Python with the `river` library. It applies ADWIN for numerical features and Chi-Square tests for categorical features to detect changes in data distribution.
+
+4. **Alerting and Notification:**
+   - When a drift is detected, alerts are triggered using Apache Kafka or AWS SNS. This ensures that relevant stakeholders are notified immediately, allowing them to investigate and address potential issues.
+
+5. **Monitoring and Logging:**
+   - System performance and detected drifts are logged using the ELK Stack or AWS CloudWatch. This component provides insights into system health and drift trends over time.
+
+6. **Data Storage:**
+   - All incoming data and detected drift events are stored in AWS S3 or HDFS. This ensures that historical data is available for future analysis and reporting.
+
+7. **Dashboard and Reporting:**
+   - Grafana or Kibana dashboards provide a visual interface for monitoring drift detection metrics and system performance. These tools enable easy reporting and analysis of drift trends.

@@ -1,0 +1,21 @@
+# Run for local insallation
+ipykernel
+numpy
+pandas
+streamlit
+faiss-cpu
+tabulate
+langchain
+langchain_experimental
+langchain_openai
+langchain_community
+nltk
+seaborn
+plotly==5.20.0
+scipy
+matplotlib
+Jinja2
+typing_extensions
+nbformat
+openpyxl
+dataclasses
